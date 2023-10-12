@@ -1,0 +1,5 @@
+.a1:focus{
+    border-radius: 10px;
+    color: red;
+    box-shadow: none;   
+}

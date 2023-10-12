@@ -1,0 +1,12 @@
+.nav1{
+    background: linear-gradient(to left,rgb(7, 207, 7),green,black);
+}
+.zoom{
+    transition:0.5s 0s all linear;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+.zoom1{
+    overflow: hidden;
+}

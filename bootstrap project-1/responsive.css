@@ -1,0 +1,22 @@
+@media(320px <=width <=480px) {
+    .responsive1{
+        display: none;
+    }
+    .responsive2{
+        margin-left: 120px;
+    }
+}
+
+@media(768px <=width <=991px) {
+    .navbtn {
+        margin-left: -120px;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .container-lg {
+        max-width: 700px;
+    }
+}

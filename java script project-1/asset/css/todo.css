@@ -1,0 +1,21 @@
+#UpdateForm {
+    display: none;
+}
+#inputName:focus{
+    box-shadow: none;
+    
+}
+#inputNumber:focus{
+    box-shadow: none;
+}
+#inputEmail:focus{
+    box-shadow: none;
+}
+.btn{
+    background-color: blue;
+    color: aliceblue;
+}
+.table1{
+    background-color: blueviolet;
+    color: aliceblue;
+}

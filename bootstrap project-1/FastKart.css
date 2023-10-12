@@ -1,0 +1,287 @@
+.navbaar {
+    background-color: rgb(13, 164, 135);
+}
+
+.select1 {
+    background-color: rgb(13, 164, 135);
+}
+
+.select2 {
+    background-color: rgb(13, 164, 135);
+}
+
+.img1 {
+    width: 150px;
+}
+
+.span-1 {
+    color: rgb(13, 164, 135);
+}
+
+#qq {
+    background-color: rgb(240, 238, 238);
+}
+
+#search-1:focus {
+    box-shadow: none;
+}
+
+#hr {
+    margin-top: -10px;
+}
+
+.a1 {
+    text-decoration: none;
+    color: black;
+    margin-top: -5px;
+}
+
+#btn1 {
+    background-color: rgb(13, 164, 135);
+}
+
+.dropdown:hover .link1 {
+    display: block;
+}
+
+.dropend:hover .lin1 {
+    display: block;
+    left: 250px;
+    margin-top: -48px;
+    width: 500px;
+    height: 255px;
+}
+
+.dropend .dropdown-toggle::after {
+    margin-left: 50px;
+}
+
+.a3 .dropdown-toggle::after {
+    margin-left: 110px;
+}
+
+.a4 .dropdown-toggle::after {
+    margin-left: 55px;
+}
+
+.a5 .dropdown-toggle::after {
+    margin-left: 58px;
+}
+
+.a6 .dropdown-toggle::after {
+    margin-left: 95px;
+}
+
+.a7 .dropdown-toggle::after {
+    margin-left: 60px;
+}
+
+.a8 .dropdown-toggle::after {
+    margin-left: 55px;
+}
+
+.dropend:hover .lin2 {
+    display: block;
+    left: 250px;
+    margin-top: -80px;
+    width: 500px;
+    height: 255px;
+}
+
+.dropend:hover .lin3 {
+    display: block;
+    left: 250px;
+    margin-top: -112px;
+    width: 500px;
+    height: 255px;
+
+}
+
+.dropend:hover .lin4 {
+    display: block;
+    left: 250px;
+    margin-top: -144px;
+    width: 500px;
+    height: 255px;
+
+}
+
+.dropend:hover .lin5 {
+    display: block;
+    left: 250px;
+    margin-top: -176px;
+    width: 500px;
+    height: 255px;
+
+}
+
+.dropend:hover .lin6 {
+    display: block;
+    left: 250px;
+    margin-top: -208px;
+    width: 500px;
+    height: 255px;
+
+}
+
+.dropend:hover .lin7 {
+    display: block;
+    left: 250px;
+    margin-top: -240px;
+    width: 500px;
+    height: 255px;
+
+}
+
+.scrollable {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    height: 255px;
+}
+
+.a9 {
+    text-decoration: none;
+    color: black;
+}
+
+.a9:hover {
+    color: rgb(13, 164, 135);
+}
+
+.dropdown:hover .nav1 {
+    display: block;
+}
+
+.dropdown:hover .nav2 {
+    display: block;
+    margin-left: -350px;
+}
+
+.dropend:hover .oo1 {
+    display: block;
+    left: 225px;
+}
+
+.dropend:hover .oo {
+    display: block;
+    left: 225px;
+}
+
+.dropend:hover .ooo {
+    display: block;
+    left: 225px;
+}
+
+.a10 .dropdown-item::after {
+    margin-left: 60px;
+}
+
+.dropdown:hover .nav3 {
+    margin-left: -50px;
+    display: block;
+}
+
+.oo1 {
+    margin-top: -72px;
+}
+
+.oo {
+    margin-left: 10px;
+    margin-top: -40px;
+}
+
+.ooo {
+    margin-top: -72px;
+    margin-left: 10px;
+}
+
+
+.gradient {
+    background: linear-gradient(to top left, rgb(255, 255, 255), rgb(246, 226, 223));
+}
+
+.gradient1 {
+    background-color: rgb(245, 245, 245);
+    color: black;
+    border: none;
+    margin-left: -6px;
+}
+
+.opacity:hover {
+    opacity: 0.6;
+}
+
+.footer:hover {
+    color: rgb(13, 164, 135);
+}
+
+.footer {
+    text-decoration: none;
+    color: rgb(108, 117, 125);
+}
+
+.footer1nav {
+    text-decoration: none;
+    color: rgb(108, 117, 125);
+}
+
+.footer1nav:hover {
+    color: rgb(13, 164, 135);
+}
+
+.footer2nav {
+    text-decoration: none;
+    color: black;
+}
+
+.iconfooter {
+    text-decoration: none;
+    color: black;
+}
+
+.zoom {
+    transition:0.5s 0s all linear;
+    color: black;
+}
+.zoom:hover{
+    transform: scale(1.1);
+    color: #0da487;
+}
+.opacity1:hover {
+    opacity: 0.7;
+}
+.divhover:hover {
+    background-color: aqua;
+}
+.Featured {
+    text-decoration: none;
+    color: black;
+}
+.Featured:hover {
+    color: rgb(13, 164, 135);
+}
+.overs{
+    overflow: hidden;
+}
+.zoom1 {
+    transition:0.5s 0s all linear;
+}
+.zoom1:hover{
+    transform: scale(1.2) rotate(6deg);
+}
+.medal-3-img{
+    transition:0.6s 0s all linear;
+}
+.medal-3-img:hover{
+    border-radius: 100px;
+    /* transform: scale(1.1); */
+}
+.m1:hover{
+    color: #0da487;
+}   
+#first-1{
+    position: sticky;
+    top: 0;
+    height: 650px;
+}

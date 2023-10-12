@@ -1,0 +1,13 @@
+.clock{
+    height: 150px;
+    width: 380px;
+    font-size: 100px;
+    margin: auto;
+    margin-top: 50px;
+
+    border-radius: 32px;
+    background: #edf1f4;
+    box-shadow: inset 17px 17px 12px #d1d4d7,
+                inset -17px -17px 12px #ffffff;
+    opacity: 100%;
+}

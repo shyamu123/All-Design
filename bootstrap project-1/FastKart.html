@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <link rel="stylesheet" href="responsive.css">
+
+  <link rel="stylesheet" href="FastKart.css">
+
+</head>
+
+<body>
+
+  <!-- container part - 1 -->
+  <div class="navbaar">
+    <div class="container-lg d-flex justify-content-between align-items-center d-md-container-lg">
+      <div class="responsive1">
+        <p>
+        <ul class="text-light p-0">something you love is now on sale! <u>Buy Now !</u></ul>
+        </p>
+      </div>
+
+      <div class="">
+        <div class="d-flex">
+          <div class="responsive">
+            <select class="select1 border-0 text-light" aria-label="Default select example">
+              <option>English</option>
+              <option value="1">Germany</option>
+              <option value="2">Turki</option>
+            </select>
+          </div>&nbsp;&nbsp;&nbsp;
+
+          <div class="vr text-light align-items-center"></div>&nbsp;&nbsp;&nbsp;
+
+          <div class="">
+            <select class="select2 border-0 text-light" aria-label="Default select example">
+              <option>USD</option>
+              <option value="1">AUD</option>
+              <option value="2">EUR</option>
+              <option value="3">CNY</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- container part - 2 -->
+
+  <div class="container-lg d-flex justify-content-between mt-4">
+    <button class="btn d-md-block d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-sharp fa-solid fa-bars text-dark fs-4"></i></button>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <hr>
+      <div class="offcanvas-body">
+        <div class="dropdown">
+          <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Home</a> 
+          <nav class="nav1 dropdown-menu">
+            <a class="dropdown-item" href="#">Kartshop</a>
+            <a class="dropdown-item" href="#">Sweetshop</a>
+            <a class="dropdown-item" href="#">Organic</a>
+            <a class="dropdown-item" href="#">Supershop</a>
+            <a class="dropdown-item" href="#">Classic Shop</a>
+            <a class="dropdown-item" href="#">Furniture</a>
+            <a class="dropdown-item" href="#">Search Oriented</a>
+            <a class="dropdown-item" href="#">Category Focus</a>
+            <a class="dropdown-item" href="#">Fashion</a>
+          </nav>
+        </div>
+
+        <div class="dropdown">
+          <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+          
+          <nav class="nav1 dropdown-menu">
+            <a class="dropdown-item" href="#">Shop Category Slider</a>
+            <a class="dropdown-item" href="#">Shop Category Sidebar</a>
+            <a class="dropdown-item" href="#">Shop Banner</a>
+            <a class="dropdown-item" href="#">Shop Left Sidebar</a>
+            <a class="dropdown-item" href="#">Shop List</a>
+            <a class="dropdown-item" href="#">Shop Right Slidebar</a>
+            <a class="dropdown-item" href="#">Shop Top Filter</a>
+          </nav>
+        </div>
+      
+        <div class="dropdown">
+          <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+          
+          <nav class="nav1 dropdown-menu">
+            <a class="dropdown-item" href="#">Product 4 Image</a>
+              <div class="dropend">
+                <a href="" type="button" class="dropdown-toggle dropdown-item" data-bs-toggle="dropdown" aria-expanded="false">
+                  Product Thumbnail
+                </a>
+                <ul class="oo1 dropdown-menu">
+                  <div class="ms-3">
+                    <li>left Thumbnail</li>
+                    <li>Right Thumbnail</li>
+                    <li>Bottom Thumbnail</li>
+                  </div>
+                </ul>
+              </div>
+            <a class="dropdown-item" href="#">Product Bundle</a>
+            <a class="dropdown-item" href="#">Product Slider</a>
+            <a class="dropdown-item" href="#">Product Sticky</a>
+          </nav>
+        </div>
+  
+        <div class="dropdown">
+          <a href="#" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Mega Menu</a>
+          
+          <nav class="nav2 dropdown-menu" style="background-image: url('asset/asset\ 71.png'); height: 225px; width: 750px; background-size: cover;">
+            <div class="d-flex justify-content-start mt-2">
+              <div class="">
+                <a href="" style="text-decoration: none; color: black;">
+                  <ul style="list-style: none;">
+                    <li style="color: rgb(13,164,135);">Daily Vegetables</li>
+                    <li>Beans & Brinjals</li>
+                    <li>Broccoli & Cauliflower</li>
+                    <li>Chilies, Garlic</li>
+                    <li>Vegetables & Salads</li>
+                    <li>Gourd, Cucumber</li>
+                    <li>Herbs & Sprouts</li>
+                    <li>Lettuce & Leafy</li>
+                  </ul>
+                </a>
+              </div>
+  
+              <div class="">
+                <a href="" style="text-decoration: none; color: black;">
+                  <ul style="list-style: none;">
+                    <li style="color: rgb(13,164,135);">Baby Tender</li>
+                    <li>Beans & Brinjals</li>
+                    <li>Broccoli & Cauliflower</li>
+                    <li>Chilies, Garlic</li>
+                    <li>Vegetables & Salads</li>
+                    <li>Gourd, Cucumber</li>
+                    <li>Potatoes & Tomatoes</li>
+                    <li>Peas & Corn</li>
+                  </ul>
+                </a>
+              </div>
+  
+              <div class="">
+                <a href="" style="text-decoration: none; color: black;">
+                  <ul style="list-style: none;">
+                    <li style="color: rgb(13,164,135);">Exotic Vegetables</li>
+                    <li>Asparagus & Artichokes</li>
+                    <li>Avocados & Peppers</li>
+                    <li>Broccoli & Zucchini</li>
+                    <li>Celery, Fennel & Leeks</li>
+                    <li>chilies & Lime</li>
+                  </ul>
+                </a>
+              </div>
+              
+  
+            </div>
+            
+          </nav>
+        </div>
+  
+        <div class="dropdown">
+          <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+          
+          <nav class="nav1 dropdown-menu">
+            <a class="dropdown-item" href="#">Blog Detail</a>
+            <a class="dropdown-item" href="#">Blog Grid</a>
+            <a class="dropdown-item" href="#">Blog List</a>
+          </nav>
+        </div>
+  
+        <div class="dropdown">
+          <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+          <p class="position-absolute top-0 start-100 translate-middle bg-danger text-light" style="font-size: 12px; border-top-left-radius: 6px; border-bottom-right-radius: 6px; margin-left: -23px; margin-top: -2px; width: 30px; text-align: center;">New</p>
+          
+          <nav class="nav3 dropdown-menu">
+            <div class="a10 dropend">
+              <a href="" type="button" class="dropdown-toggle dropdown-item" data-bs-toggle="dropdown" aria-expanded="false">
+                Email Template &nbsp;
+              <i class="fa-solid fa-bolt" style="color: rgb(13,164,135);"></i>
+              </a>
+              <ul class="oo dropdown-menu">
+                <div class="ms-3">
+                  <li>Abandonment</li>
+                  <li>Offer Template</li>
+                  <li>Order Success</li>
+                  <li>Rest Pasword</li>
+                  <li>Welcome Template</li>
+                </div>
+              </ul>
+            </div>
+            
+            <div class="dropend">
+              <a href="" type="button" class="dropdown-toggle dropdown-item" data-bs-toggle="dropdown" aria-expanded="false">
+                Invoice Template &nbsp;
+              <i class="fa-solid fa-bolt" style="color: rgb(13,164,135);"></i>
+              </a>
+              <ul class="ooo dropdown-menu">
+                <div class="ms-3">
+                  <li>Invoice 1</li>
+                  <li>Invoice 2</li>
+                  <li>Invoice 3</li>
+                </div>
+              </ul>
+            </div>
+            <a class="dropdown-item" href="#">404</a>
+            <a class="dropdown-item" href="#">About Us</a>
+            <a class="dropdown-item" href="#">Contact</a>
+            <a class="dropdown-item" href="#">Checkout</a>
+            <a class="dropdown-item" href="#">Coming Soon</a>
+            <a class="dropdown-item" href="#">Compare</a>
+            <a class="dropdown-item" href="#">Faq</a>
+            <a class="dropdown-item" href="#">Order Tracking</a>
+            <a class="dropdown-item" href="#">OTP</a>
+            <a class="dropdown-item" href="#">Search</a>
+            <a class="dropdown-item" href="#">User Dashboard</a>
+            <a class="dropdown-item" href="#">Wishlist</a>
+          </nav>
+        </div>
+  
+        <div class="dropdown">
+          <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Seller</a>
+          
+          <nav class="nav1 dropdown-menu">
+            <a class="dropdown-item" href="#">Become a Seller</a>
+            <a class="dropdown-item" href="#">Seller Dashboard</a>
+            <a class="dropdown-item" href="#">Seller Detail</a>
+            <a class="dropdown-item" href="#">Seller Detail 2</a>
+            <a class="dropdown-item" href="#">Seller Grid</a>
+            <a class="dropdown-item" href="#">Seller Grid 2</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    
+    <div class="navbtn d-flex align-items-center gap-3">
+      <!-- <i class="fa-sharp fa-solid fa-bars d-md-block d-xl-none mt-2"></i> -->
+      <a href="#"><img src="asset/asset 4.png" class="img1 img-fluid" alt="Not Show"></a>
+      <div class="border border-2 rounded-3">
+        <button type="button" class="btn btn12" data-bs-toggle="modal" data-bs-target="#shyam">
+          <i class="fa-sharp fa-solid fa-location-dot bg-body-tertiary border rounded-3 p-1"></i>
+          <span
+            class="span-1 ms-2 d-md-none d-xl-inline ">Your location <img src="asset/asset 76.svg" class="" alt="" style="height: 15px;"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="shyam" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="header">
+            <div data-bs-theme="danger" class="position-relative">
+              <button type="button" class="btn-close position-absolute top-0 start-100 translate-middle"
+                data-bs-dismiss="modal" aria-label="Close" id="qq"></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <p class="modal-title" id="exampleModalLabel"><b>Choose your Delivery Location</b></p>
+            <p>Enter your address and we will specify the offer for your area.</p>
+            <div class="border border-1 rounded-1 d-flex border-info">
+              <img src="asset/asset 78.svg" alt="" class="ms-3">
+              <input type="search" placeholder="Search Your Area" class="border border-0 form-control" id="search-1">
+            </div>
+            <p class="mt-3">Select a Location</p>
+            <hr id="hr">
+          </div>
+
+          <div class="container scrollable">
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">Alabama</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $130</p>
+              </a>
+            </div>
+
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">Arizons</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $150</p>
+              </a>
+            </div>
+
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">California</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $110</p>
+              </a>
+            </div>
+
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">Colorado</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $140</p>
+              </a>
+            </div>
+
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">Florida</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $160</p>
+              </a>
+            </div>
+
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">Georgia</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $120</p>
+              </a>
+            </div>
+
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">kansas</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $170</p>
+              </a>
+            </div>
+
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">Minnesota</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $120</p>
+              </a>
+            </div>
+
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">New York</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $110</p>
+              </a>
+            </div>
+
+            <div class="d-flex position-relative">
+              <a href="#" class="a1">
+                <p class="ms-2">Washington</p>
+                <p class="border border-2 position-absolute top-0 end-0 rounded-pill px-2 border-black-50 me-2" id="a2">
+                  Min: $130</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-5 border border-1 rounded-1 d-flex border-warning d-md-none d-xl-flex">
+      <input type="text" placeholder="l'm searching for..." class="border border-0 form-control" id="search-1">
+      <button class="bg-warning border border-0 px-3">
+        <img src="asset/asset 78.svg" alt="Nor Show" class="">
+      </button>
+    </div>
+
+    <div class="d-flex align-items-center">
+      <img src="asset/asset 78.svg" class="h-50 img-fluid d-md-block d-xl-none px-3" alt="">
+      <div class="vr fs-3 d-md-block d-xl-none" style="height: 30px; margin-top: 9px;"></div>
+      <i class="fa-sharp fa-solid fa-phone-volume fs-4 px-3"></i>
+      <div class="vr" style="height: 30px; margin-top: 9px;"></div>
+      <a href="#"><i class="fa-regular fa-heart fs-4 px-3"></i></a>
+      <div class="vr" style="height: 30px; margin-top: 9px;"></div>
+      <a href="#"><i class="fa-solid fa-cart-shopping fs-4 px-3"></i></a>
+      <div class="vr" style="height: 30px; margin-top: 9px;"></div>
+      <i class="fa-solid fa-user fs-4 px-3"></i>
+    </div>
+  </div>
+
+  <!-- container part -- 3 -->
+
+  <div class="container-lg mt-3 container-lg-">
+    <div class="d-flex align-items-center justify-content-between">
+      <div class="">
+        <div class="dropdown">
+          <div class="">
+            <button class="btn btn-secondary border border-0" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false" id="btn1"><i class="fa-solid fa-bars-staggered me-2"></i>
+              All categories
+            </button>
+            <ul class="dropdown-menu link1 py-3">
+              <li class="dropend">
+                <a href="" class="dropdown-toggle dropdown-item"><img src="asset/asset 7.svg" alt=""
+                    style="height: 20px; margin-right: 10px;">Vegetables & Fruit</a>
+                <ul class="dropdown-menu lin1">
+                  <div class="d-flex" style="justify-content:space-around;">
+                    <div class="">
+                      <p class="fs-5"><b>Organic Vegetables</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Potato & Tomato</li>
+                        <li>Cucumber & Capsicum</li>
+                        <li>Leafy Vegetables</li>
+                        <li>Root Vegetables</li>
+                        <li>Beans & Okra</li>
+                        <li>Cabbage & Cauliflower</li>
+                        <li>Gourd & Drumstick</li>
+                        <li>Specialty</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <p class="fs-5"><b>Fresh Fruit</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Banana & Papaya</li>
+                        <li>Kiwi, Citrus Fruit</li>
+                        <li>Apples & Pomegranate</li>
+                        <li>Seasonal Fruits</li>
+                        <li>Mangoes</li>
+                        <li>Fruit Baskets</li>
+                      </ul>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="a3 dropend">
+                <a href="" class="dropdown-toggle dropdown-item"><img src="asset/asset 8.svg" alt=""
+                    style="height: 20px; margin-right: 10px;">Beverages</a>
+                <ul class="dropdown-menu lin2">
+                  <div class="d-flex ms-5" style="justify-content:start;">
+                    <div class="">
+                      <p class="fs-5"><b>Energy & Soft Drinks</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Soda & Cocktail Mix</li>
+                        <li>Soda & Cocktail Mix</li>
+                        <li>Sports & Energy Drinks</li>
+                        <li>Non Alcoholic Drinks</li>
+                        <li>Packaged Water</li>
+                        <li>Spring Water</li>
+                        <li>Flavoured Water</li>
+                      </ul>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="a4 dropend">
+                <a href="" class="dropdown-toggle dropdown-item"><img src="asset/asset 9.svg" alt=""
+                    style="height: 20px; margin-right: 10px;">Meats & Seafood</a>
+                <ul class="dropdown-menu lin3">
+                  <div class="d-flex" style="justify-content:space-around;">
+                    <div class="">
+                      <p class="fs-5"><b>Meat</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Fresh Meat</li>
+                        <li>Frozen Meat</li>
+                        <li>Marinated Meat</li>
+                        <li>Fresh & Frozen Meat</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <p class="fs-5"><b>Seafood</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Fresh Water Fish</li>
+                        <li>Dry Fish</li>
+                        <li>Froozen Fish & Seafood</li>
+                        <li>Manine Water Fish</li>
+                        <li>Canned Seafood</li>
+                        <li>Prawans & Shrimps</li>
+                        <li>Other Seafood</li>
+                      </ul>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="a5 dropend">
+                <a href="" class="dropdown-toggle dropdown-item"><img src="asset/asset 10.svg" alt=""
+                    style="height: 10px; margin-right: 10px;">Breakfasr & Dairy</a>
+                <ul class="dropdown-menu lin4">
+                  <div class="d-flex" style="justify-content:space-around;">
+                    <div class="">
+                      <p class="fs-5"><b>Breakfast Cereals</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Oata & Porridge</li>
+                        <li>Kids Cereal</li>
+                        <li>Muesli</li>
+                        <li>Flakes</li>
+                        <li>Granola & Cereal Bars</li>
+                        <li>Instant Noodles</li>
+                        <li>Pasta & Macaroni</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <p class="fs-5"><b>Dairy</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Milk</li>
+                        <li>Curd</li>
+                        <li>Paneer, Tofu & Cream</li>
+                        <li>Butter & margarine</li>
+                        <li>Condensed, Powdered Milk</li>
+                        <li>Buttermilk & lassi</li>
+                        <li>Yogurt & Shrikhand</li>
+                        <li>Flavoured, Soya Milk</li>
+                      </ul>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="a6 dropend">
+                <a href="" class="dropdown-toggle dropdown-item"><img src="asset/asset 11.svg" alt=""
+                    style="height: 20px; margin-right: 10px;">Frozen Food</a>
+                <ul class="dropdown-menu lin5">
+                  <div class="d-flex ms-5" style="justify-content:start;">
+                    <div class="">
+                      <p class="fs-5"><b>Noodle, Pasta</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Instant Noodles</li>
+                        <li>Hakka Noodles</li>
+                        <li>Cup Noodles</li>
+                        <li>Vermicelli</li>
+                        <li>Instant pasta</li>
+                      </ul>
+                    </div>
+                </ul>
+              </li>
+
+              <li class="a7 dropend">
+                <a href="" class="dropdown-toggle dropdown-item"><img src="asset/asset 12.svg" alt=""
+                    style="height: 20px; margin-right: 10px;">Biscuits & Snacks</a>
+                <ul class="dropdown-menu lin6">
+                  <div class="d-flex" style="justify-content:space-around;">
+                    <div class="">
+                      <p class="fs-5"><b>Biscuits & Cookies</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Salted Biscuits</li>
+                        <li>Marie, Health, Digestive</li>
+                        <li>Cream Biscuits & Wafers</li>
+                        <li>Glucose & Milk Biscuits</li>
+                        <li>Cookies</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <p class="fs-5"><b>Bakery Snacks</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Bread Sticks & Lavash</li>
+                        <li>Cheese & Garlic Bread</li>
+                        <li>Puffs, Patties, Sandwiches</li>
+                        <li>Breadcrumbs & Croutons</li>
+                      </ul>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="a8 dropend">
+                <a href="" class="dropdown-toggle dropdown-item"><img src="asset/asset 13.svg" alt=""
+                    style="height: 20px; margin-right: 10px;">Grocery & Staples</a>
+                <ul class="dropdown-menu lin7">
+                  <div class="d-flex" style="justify-content:space-around;">
+                    <div class="">
+                      <p class="fs-5"><b>Grocery</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Lemon. Ginger & Garlic</li>
+                        <li>Indian & Exotic Herbs</li>
+                        <li>Organic Vegetables</li>
+                        <li>Organic Fruits</li>
+                      </ul>
+                    </div>
+                    <div class="">
+                      <p class="fs-5"><b>Organic Staples</b></p>
+                      <ul style="list-style: disc; margin-left: -10px;">
+                        <li>Organic Dry Fruits</li>
+                        <li>Organic Dala & Pulses</li>
+                        <li>Organic Millet & Flours</li>
+                        <li>Organic Sugar, Jaggery</li>
+                        <li>Organic Masalas & Spices</li>
+                        <li>Organic Rice, Other Rice</li>
+                        <li>Organic Flours</li>
+                        <li>Organic Edible Oil Ghee</li>
+                      </ul>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+        
+        <nav class="nav1 dropdown-menu">
+          <a class="dropdown-item" href="#">Kartshop</a>
+          <a class="dropdown-item" href="#">Sweetshop</a>
+          <a class="dropdown-item" href="#">Organic</a>
+          <a class="dropdown-item" href="#">Supershop</a>
+          <a class="dropdown-item" href="#">Classic Shop</a>
+          <a class="dropdown-item" href="#">Furniture</a>
+          <a class="dropdown-item" href="#">Search Oriented</a>
+          <a class="dropdown-item" href="#">Category Focus</a>
+          <a class="dropdown-item" href="#">Fashion</a>
+        </nav>
+      </div>
+
+      <div class="dropdown">
+        <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+        
+        <nav class="nav1 dropdown-menu">
+          <a class="dropdown-item" href="#">Shop Category Slider</a>
+          <a class="dropdown-item" href="#">Shop Category Sidebar</a>
+          <a class="dropdown-item" href="#">Shop Banner</a>
+          <a class="dropdown-item" href="#">Shop Left Sidebar</a>
+          <a class="dropdown-item" href="#">Shop List</a>
+          <a class="dropdown-item" href="#">Shop Right Slidebar</a>
+          <a class="dropdown-item" href="#">Shop Top Filter</a>
+        </nav>
+      </div>
+
+      <div class="dropdown">
+        <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+        
+        <nav class="nav1 dropdown-menu">
+          <a class="dropdown-item" href="#">Product 4 Image</a>
+            <div class="dropend">
+              <a href="" type="button" class="dropdown-toggle dropdown-item" data-bs-toggle="dropdown" aria-expanded="false">
+                Product Thumbnail
+              </a>
+              <ul class="oo1 dropdown-menu">
+                <div class="ms-3">
+                  <li>left Thumbnail</li>
+                  <li>Right Thumbnail</li>
+                  <li>Bottom Thumbnail</li>
+                </div>
+              </ul>
+            </div>
+          <a class="dropdown-item" href="#">Product Bundle</a>
+          <a class="dropdown-item" href="#">Product Slider</a>
+          <a class="dropdown-item" href="#">Product Sticky</a>
+        </nav>
+      </div>
+
+      <div class="dropdown">
+        <a href="#" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Mega Menu</a>
+        
+        <nav class="nav2 dropdown-menu" style="background-image: url('asset/asset\ 71.png'); height: 225px; width: 750px; background-size: cover;">
+          <div class="d-flex justify-content-start mt-2">
+            <div class="">
+              <a href="" style="text-decoration: none; color: black;">
+                <ul style="list-style: none;">
+                  <li style="color: rgb(13,164,135);">Daily Vegetables</li>
+                  <li>Beans & Brinjals</li>
+                  <li>Broccoli & Cauliflower</li>
+                  <li>Chilies, Garlic</li>
+                  <li>Vegetables & Salads</li>
+                  <li>Gourd, Cucumber</li>
+                  <li>Herbs & Sprouts</li>
+                  <li>Lettuce & Leafy</li>
+                </ul>
+              </a>
+            </div>
+
+            <div class="">
+              <a href="" style="text-decoration: none; color: black;">
+                <ul style="list-style: none;">
+                  <li style="color: rgb(13,164,135);">Baby Tender</li>
+                  <li>Beans & Brinjals</li>
+                  <li>Broccoli & Cauliflower</li>
+                  <li>Chilies, Garlic</li>
+                  <li>Vegetables & Salads</li>
+                  <li>Gourd, Cucumber</li>
+                  <li>Potatoes & Tomatoes</li>
+                  <li>Peas & Corn</li>
+                </ul>
+              </a>
+            </div>
+
+            <div class="">
+              <a href="" style="text-decoration: none; color: black;">
+                <ul style="list-style: none;">
+                  <li style="color: rgb(13,164,135);">Exotic Vegetables</li>
+                  <li>Asparagus & Artichokes</li>
+                  <li>Avocados & Peppers</li>
+                  <li>Broccoli & Zucchini</li>
+                  <li>Celery, Fennel & Leeks</li>
+                  <li>chilies & Lime</li>
+                </ul>
+              </a>
+            </div>
+            
+
+          </div>
+          
+        </nav>
+      </div>
+
+      <div class="dropdown">
+        <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+        
+        <nav class="nav1 dropdown-menu">
+          <a class="dropdown-item" href="#">Blog Detail</a>
+          <a class="dropdown-item" href="#">Blog Grid</a>
+          <a class="dropdown-item" href="#">Blog List</a>
+        </nav>
+      </div>
+
+      <div class="dropdown">
+        <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+        <p class="position-absolute top-0 start-100 translate-middle bg-danger text-light" style="font-size: 12px; border-top-left-radius: 6px; border-bottom-right-radius: 6px; margin-left: -23px; margin-top: -2px; width: 30px; text-align: center;">New</p>
+        
+        <nav class="nav3 dropdown-menu">
+          <div class="a10 dropend">
+            <a href="" type="button" class="dropdown-toggle dropdown-item" data-bs-toggle="dropdown" aria-expanded="false">
+              Email Template &nbsp;
+            <i class="fa-solid fa-bolt" style="color: rgb(13,164,135);"></i>
+            </a>
+            <ul class="oo dropdown-menu">
+              <div class="ms-3">
+                <li>Abandonment</li>
+                <li>Offer Template</li>
+                <li>Order Success</li>
+                <li>Rest Pasword</li>
+                <li>Welcome Template</li>
+              </div>
+            </ul>
+          </div>
+          
+          <div class="dropend">
+            <a href="" type="button" class="dropdown-toggle dropdown-item" data-bs-toggle="dropdown" aria-expanded="false">
+              Invoice Template &nbsp;
+            <i class="fa-solid fa-bolt" style="color: rgb(13,164,135);"></i>
+            </a>
+            <ul class="ooo dropdown-menu">
+              <div class="ms-3">
+                <li>Invoice 1</li>
+                <li>Invoice 2</li>
+                <li>Invoice 3</li>
+              </div>
+            </ul>
+          </div>
+          <a class="dropdown-item" href="#">404</a>
+          <a class="dropdown-item" href="#">About Us</a>
+          <a class="dropdown-item" href="#">Contact</a>
+          <a class="dropdown-item" href="#">Checkout</a>
+          <a class="dropdown-item" href="#">Coming Soon</a>
+          <a class="dropdown-item" href="#">Compare</a>
+          <a class="dropdown-item" href="#">Faq</a>
+          <a class="dropdown-item" href="#">Order Tracking</a>
+          <a class="dropdown-item" href="#">OTP</a>
+          <a class="dropdown-item" href="#">Search</a>
+          <a class="dropdown-item" href="#">User Dashboard</a>
+          <a class="dropdown-item" href="#">Wishlist</a>
+        </nav>
+      </div>
+
+      <div class="dropdown">
+        <a href="" class="a9 dropdown-toggle border border-0 bg-white" type="button"   data-bs-toggle="dropdown" aria-expanded="false">Seller</a>
+        
+        <nav class="nav1 dropdown-menu">
+          <a class="dropdown-item" href="#">Become a Seller</a>
+          <a class="dropdown-item" href="#">Seller Dashboard</a>
+          <a class="dropdown-item" href="#">Seller Detail</a>
+          <a class="dropdown-item" href="#">Seller Detail 2</a>
+          <a class="dropdown-item" href="#">Seller Grid</a>
+          <a class="dropdown-item" href="#">Seller Grid 2</a>
+        </nav>
+      </div>
+
+      <div class="">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn px-3 py-2" style="background-color: rgb(230,245,243);" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <i class="fa-solid fa-bolt fs-3" style="color: rgb(13,164,135);"></i>
+      </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+              <button type="button" class="btn-close position-absolute top-0 start-100 translate-middle" style="background-color: rgb(13,164,135);;" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          
+          <div class="modal-body">
+            <div class="">
+              <span class="fs-5"><b>Deal Today</b></span><br>
+              <span>Recommended deals for you.</span>
+            </div>
+            <br>
+
+            <div class="scrollable" style="height: 380px;">
+              <div class="container d-flex align-items-center justify-content-evenly pb-2 rounded-4"   style="background-color: rgb(219,242,237);">
+                <div class="mt-3">
+                  <img src="asset/asset 34.png" alt="" style="height: 80px;">
+                </div>
+                <div class="mt-3">
+                  <p>Blended Instant Coffee 50 g Buy 1 Get 1 Free</p>
+                  <p>$52.57 <span style="color: red; font-size: 15px;"><del>57.62</del></span> <span style="font-size: 15px;">500 G</span></p>
+                </div>
+              </div>
+
+              <div class="container d-flex align-items-center justify-content-evenly pb-2 rounded-4 mt-3"   style="background-color: rgb(255,229,229);">
+                <div class="mt-3">
+                  <img src="asset/asset 52.png" alt="" style="height: 40px;">
+                </div>
+                <div class="mt-3">
+                  <p>Blended Instant Coffee 50 g Buy 1 Get 1 Free</p>
+                  <p>$52.57 <span style="color: red; font-size: 15px;"><del>57.62</del></span> <span style="font-size: 15px;">500 G</span></p>
+                </div>
+              </div>
+
+              <div class="container d-flex align-items-center justify-content-evenly pb-2 rounded-4 mt-3"   style="background-color: rgb(255,242,226);">
+                <div class="mt-3">
+                  <img src="asset/asset 53.png" alt="" style="height: 30px;">
+                </div>
+                <div class="mt-3">
+                  <p>Blended Instant Coffee 50 g Buy 1 Get 1 Free</p>
+                  <p>$52.57 <span style="color: red; font-size: 15px;"><del>57.62</del></span> <span style="font-size: 15px;">500 G</span></p>
+                </div>
+              </div>
+
+              <div class="container d-flex align-items-center justify-content-evenly pb-2 rounded-4 mt-3"   style="background-color: rgb(219,242,237);">
+                <div class="mt-3">
+                  <img src="asset/asset 54.png" alt="" style="height: 50px;">
+                </div>
+                <div class="mt-3">
+                  <p>Blended Instant Coffee 50 g Buy 1 Get 1 Free</p>
+                  <p>$52.57 <span style="color: red; font-size: 15px;"><del>57.62</del></span> <span style="font-size: 15px;">500 G</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- img part -->
+  
+  <div class="container mt-4">
+    <div class="row justify-content-between">
+      <div class="col-sm-12 col-md-12 col-xl-7 rounded-4" style="background-image: url('asset/asset\ 14.jpeg'); background-size: cover; background-repeat: no-repeat; background-position: 80%;">
+        <div class="d-flex flex-column justify-content-center w-75 p-4 h-100">
+            <p>Exclusive offer <span class="gradient text-danger rounded-pill px-3 py-2">30% Off</span></p>
+          <h1 style="max-width: 400px;" class="animate__animated animate__bounce">STAY HOME & DELIVERED YOUR <span>DAILY NEEDS</span></h1>
+          <p style="max-width: 360px;">Vegetables contain many vitamins and minerals that are good for your health.</p>
+          <button class="btn btn-danger col-4">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+      
+      <div class="col-sm-12 col-md-12 col-xl-4 mt-sm-0 mt-md-4 mt-xl-0">
+        <div class="row">
+          <div class="col-sm-12 col-md-5 col-xl-12 p-4 rounded-4 mt-sm-4 mt-md-0" style="background-image: url('asset/asset\ 15.jpeg'); background-size: cover;">
+            <p class="text-danger fs-2">45% <span class="text-dark fs-5">off</span></p>
+            <p class="fs-3 p-0">Nut Collection</p>
+            <p>We deliver organic <br> vegetables & fruits</p>
+            <button class="gradient1">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-12 p-4 rounded-4 ms-auto mt-sm-4 mt-md-0 mt-lg-4" style="background-image: url('asset/asset\ 16.jpeg'); background-size: cover;">
+            <p class="text-danger fs-2">45% <span class="text-dark fs-5">off</span></p>
+            <p class="fs-3 p-0">Nut Collection</p>
+            <p>We deliver organic <br> vegetables & fruits</p>
+            <button class="gradient1">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  
+  <div class="container-lg mt-4 d-flex justify-content-between p-0" style="flex-wrap: wrap;">
+    
+    <div class="opacity rounded-2 col-sm-12 col-md-12 col-xl-4" style="background-image: url('asset/asset\ 17.jpeg'); background-position: right; width: 358px; background-repeat: no-repeat;">
+      <div class="mt-4" style="max-width: 240px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; background-color: rgb(250,250,248);">
+        <p class="ms-1 text-danger">5% OFF</p>
+        <p class="ms-1" style="margin-top: -10px;"><b>Buy More & Save More</b></p>
+        <p class="ms-1 text-secondary" style="margin-top: -10px;">Fresh Vegetables</p>
+      </div>
+      <button class="gradient1 mt-4 ms-3">Shop Now</button>
+    </div>
+
+    <div class="opacity rounded-2 col-sm-12 col-md-12 col-xl-4" style="background-image: url('asset/asset\ 18.jpeg'); background-position: right; width: 358px;">
+      <div class="mt-4" style="max-width: 240px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; background-color: rgb(250,250,248);">
+        <p class="ms-1 text-danger">5% OFF</p>
+        <p class="ms-1" style="margin-top: -10px;"><b>Buy More & Save More</b></p>
+        <p class="ms-1 text-secondary" style="margin-top: -10px;">Fresh Vegetables</p>
+      </div>
+      <button class="gradient1 mt-4 ms-3">Shop Now</button>
+    </div>
+
+    <div class="opacity rounded-2 col-sm-12 col-md-12 col-xl-4" style="background-image: url('asset/asset\ 19.jpeg'); background-position: right; width: 358px;">
+      <div class="mt-4" style="max-width: 240px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; background-color: rgb(250,250,248);">
+        <p class="ms-1 text-danger">5% OFF</p>
+        <p class="ms-1" style="margin-top: -10px;"><b>Buy More & Save More</b></p>
+        <p class="ms-1 text-secondary" style="margin-top: -10px;">Fresh Vegetables</p>
+      </div>
+      <button class="gradient1 mt-4 ms-3">Shop Now</button>
+    </div>
+  </div>
+</div>
+
+  <!-- main part -->
+
+  <div class="container-lg mt-5 ">
+    <div class="d-flex row justify-content-between">
+      <div class="ms-2" style="width: 360px; height: 1250px; background-color: #f8f8f8;">
+        <h3 class="ms-3 mt-3">Category</h3>
+        <a href="" class="dropdown-item ms-3 mt-3"><img src="asset/asset 7.svg" alt=""
+            style="height: 20px; margin-right: 10px;">Vegetables & Fruit</a>
+
+        <a href="" class="ms-3 mt-4 dropdown-item"><img src="asset/asset 8.svg" alt=""
+            style="height: 20px; margin-right: 10px;">Beverages</a>
+
+        <a href="" class="ms-3 mt-4 dropdown-item"><img src="asset/asset 9.svg" alt=""
+            style="height: 20px; margin-right: 10px;">Meats & Seafood</a>
+
+        <a href="" class="ms-3 mt-4 dropdown-item"><img src="asset/asset 10.svg" alt=""
+            style="height: 10px; margin-right: 10px;">Breakfasr & Dairy</a>
+
+        <a href="" class="ms-3 mt-4 dropdown-item"><img src="asset/asset 11.svg" alt=""
+            style="height: 20px; margin-right: 10px;">Frozen Food</a>
+
+        <a href="" class="ms-3 mt-4 dropdown-item"><img src="asset/asset 12.svg" alt=""
+            style="height: 20px; margin-right: 10px;">Biscuits & Snacks</a>
+
+        <a href="" class="ms-3 mt-4 dropdown-item"><img src="asset/asset 13.svg" alt=""
+            style="height: 20px; margin-right: 10px;">Grocery & Staples</a>
+
+        <a href="" class="ms-3 mt-4 dropdown-item"><img src="asset/asset 21.svg" alt=""
+            style="height: 25px; margin-right: 10px;">Wines & Alcohol Drinks</a>
+
+        <a href="" class="ms-3 mt-4 dropdown-item"><img src="asset/asset 22.svg" alt=""
+            style="height: 23px; margin-right: 10px;">Milk & Dairies</a>
+
+        <a href="" class="ms-3 mt-4 dropdown-item"><img src="asset/asset 23.svg" alt=""
+            style="height: 20px; margin-right: 10px; width: 20px;">Pet Foods</a>
+        <p style="color: black;" class="ms-3 mt-4">-------------------------------------------------</p>
+
+        <p class="ms-3 mt-5">Value of the Day</p>
+        <p class="ms-3 mt-4">Top 50 Offers</p>
+        <p class="ms-3 mt-4">New Arrivals</p>
+      </div>
+
+      <div class="mt-4" style="background-color: whit; width: 740px; ">
+        <h3 class="">Top Save Today</h3>
+        <img src="assets/asset 13.svg" alt="" class="" style="height: 40px; margin-left: 80px;">
+        <p class="fs-5">Don't miss this opportunity at a special discount just for this week.</p>
+        <div class="mt-3" style="border: 2px solid #c8ccd1;">
+          <div class="d-flex" style="border-bottom: 2px solid #c8ccd1;">
+            <div class="card" style="width: 18rem; border-radius: 0; border: none; border-right: 2px solid #c8ccd1;">
+              <img src="asset/asset 5.png" class="card-img-top mt-4 img-fluid zoom" alt="..."
+                style="height: 150px; width: 200px; display: block; margin: auto;">
+              <div class="card-body">
+                <a href="#" class="" style="text-decoration: none; color: black;">Fantasy Crunchy Choco Chip
+                  Cookies</a><br>
+                <a href="#" class="" style="color: #1aa98e; text-decoration: none;">$26.26 <span class=""
+                    style="color: black;"><del>28.56</del></span></a><br>
+                <a href="#" style="text-decoration: none; color: #1aa98e;"><img src="assets/asset 91.svg" alt=""
+                    class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">&nbsp;&nbsp;&nbsp;In
+                  Stock</a><br>
+                <button type="button" class="btn  mt-2 text-center rounded-pill"
+                  style="width: 200px; background-color: #f8f8f8;">Add<i class="rounded-pill fa-regular fa-plus px-2 py-2"
+                    style="margin-left: 70px; background-color: #ffffff;"></i></button>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem; border-radius: 0; border: none; border-right: 2px solid #c8ccd1">
+              <img src="asset/asset 35.png" class="card-img-top mt-4 img-fluid zoom" alt="..." style="width: 200px;
+            height: 150px; display: block; margin: auto;">
+              <div class="card-body">
+                <a href="#" class="" style="text-decoration: none; color: black;">Fantasy Crunchy Choco Chip Cookies
+                  600g</a><br>
+                <a href="#" class="" style="color: #1aa98e; text-decoration: none;">$26.26 <span class=""
+                    style="color: black;"><del>28.56</del></span></a><br>
+                <a href="#" style="text-decoration: none; color: #1aa98e;"><img src="assets/asset 91.svg" alt=""
+                    class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">&nbsp;&nbsp;&nbsp;In
+                  Stock</a><br>
+                <button type="button" class="btn rounded-pill mt-2 text-center"
+                  style="width: 200px; background-color: #f8f8f8;">Add<i class="rounded-pill fa-regular fa-plus px-2 py-2"
+                    style="margin-left: 70px; background-color: #ffffff;"></i></button>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem; border-radius: 0; border: none;">
+              <img src="asset/asset 36.png" class="card-img-top mt-4 img-fluid zoom" alt="..." style="width: 150px;
+            height: 150px; display: block; margin: auto;">
+              <div class="card-body">
+                <a href="#" class="" style="text-decoration: none; color: black;">Fantasy Crunchy Choco Chip Cookies
+                  100g</a><br>
+                <a href="#" class="" style="color: #1aa98e; text-decoration: none;">$26.26 <span class=""
+                    style="color: black;"><del>28.56</del></span></a><br>
+                <a href="#" style="text-decoration: none; color: #1aa98e;"><img src="assets/asset 91.svg" alt=""
+                    class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">&nbsp;&nbsp;&nbsp;In
+                  Stock</a><br>
+                <button type="button" class="btn rounded-pill mt-2 text-center"
+                  style="width: 200px; background-color: #f8f8f8;">Add<i class="fa-regular fa-plus px-2 py-2"
+                    style="margin-left: 70px; background-color: #ffffff;"></i></button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="d-flex" style="border-bottom: 2px solid #c8ccd1;">
+            <div class="card" style="width: 18rem; border-radius: 0; border: none; border-right: 2px solid #c8ccd1;">
+              <img src="asset/asset 6.png" class="card-img-top mt-4 img-fluid zoom" alt="..."
+                style="height: 150px; width: 200px; display: block; margin: auto;">
+              <div class="card-body">
+                <a href="#" class="" style="text-decoration: none; color: black;">Fantasy Crunchy Choco Chip
+                  Cookies</a><br>
+                <a href="#" class="" style="color: #1aa98e; text-decoration: none;">$26.26 <span class=""
+                    style="color: black;"><del>28.56</del></span></a><br>
+                <a href="#" style="text-decoration: none; color: #1aa98e;"><img src="assets/asset 91.svg" alt=""
+                    class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">&nbsp;&nbsp;&nbsp;In
+                  Stock</a><br>
+                <button type="button" class="btn rounded-pill mt-2 text-center"
+                  style="width: 200px; background-color: #f8f8f8;">Add<i class="rounded-pill fa-regular fa-plus px-2 py-2"
+                    style="margin-left: 70px; background-color: #ffffff;"></i>
+                </button>
+              </div>
+            </div>
+
+
+            <div class="card " style="width: 18rem; border-radius: 0; border: none; border-right: 2px solid #c8ccd1">
+              <img src="asset/asset 37.png" class="card-img-top mt-4 img-fluid zoom" alt="..." style="width: 180px;
+            height: 150px; display: block; margin: auto;">
+              <div class="card-body">
+                <a href="#" class="" style="text-decoration: none; color: black;">Fantasy Crunchy Choco Chip Cookies
+                  600g</a><br>
+                <a href="#" class="" style="color: #1aa98e; text-decoration: none;">$26.26 <span class=""
+                    style="color: black;"><del>28.56</del></span></a><br>
+                <a href="#" style="text-decoration: none; color: #1aa98e;"><img src="assets/asset 91.svg" alt=""
+                    class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">&nbsp;&nbsp;&nbsp;In
+                  Stock</a><br>
+                <button type="button" class="btn rounded-pill mt-2 text-center"
+                  style="width: 200px; background-color: #f8f8f8;">Add<i class="rounded-pill fa-regular fa-plus px-2 py-2"
+                    style="margin-left: 70px; background-color: #ffffff;"></i></button>
+              </div>
+            </div>
+
+
+            <div class="card " style="width: 18rem; border-radius: 0; border: none;">
+              <img src="asset/asset 38.png" class="card-img-top mt-4 img-fluid zoom" alt="..." style="width: 150px;
+              height: 150px; display: block; margin: auto;">
+              <div class="card-body">
+                <a href="#" class="" style="text-decoration: none; color: black;">Fantasy Crunchy Choco Chip Cookies
+                  100g</a><br>
+                <a href="#" class="" style="color: #1aa98e; text-decoration: none;">$26.26 <span class=""
+                    style="color: black;"><del>28.56</del></span></a><br>
+                <a href="#" style="text-decoration: none; color: #1aa98e;"><img src="assets/asset 91.svg" alt=""
+                    class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                  <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">&nbsp;&nbsp;&nbsp;In
+                  Stock</a><br>
+                <button type="button" class="btn rounded-pill mt-2 text-center"
+                  style="width: 200px; background-color: #f8f8f8;">Add<i class="rounded-pill fa-regular fa-plus px-2 py-2"
+                    style="margin-left: 70px; background-color: #ffffff;"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h3 class="">Bowse By Categories</h3>
+          <p>-------<img src="asset/asset 13.svg" alt="" class="" style="height: 30px; margin-left: 10px;">&nbsp;&nbsp;-------</p>
+          <p class="text-secondary">Top Categories Of The Week</p>
+        </div>
+
+        <div class="d-flex justify-content-between mt-4">
+          <div class="" style="background-color: #f8f8f8; width: 130px; height: 120px;">
+            <img src="asset/asset 23.svg" alt="" class="img-fluid mt-4 wefer" style="display: block; height: 40px; margin: auto;">
+            <p style="font-size: 17px; text-align: center; color: black;">Frozen Foods</p>
+          </div>
+          <div class="divhover" style="background-color: #f8f8f8; width: 130px; height: 120px;">
+            <img src="asset/asset 22.svg" alt="" class="img-fluid mt-4" style="display: block; margin: auto; height: 40px;">
+            <p style="font-size: 17px; text-align: center; color: black;">Frozen Foods</p>
+          </div>
+          <div class="divhover" style="background-color: #f8f8f8; width: 130px; height: 120px;">
+            <img src="asset/asset 7.svg" alt="" class="img-fluid mt-4" style="display: block; margin: auto; height: 40px;">
+            <p style="font-size: 17px; text-align: center; color: black;">Frozen Foods</p>
+          </div>
+          <div class="divhover" style="background-color: #f8f8f8; width: 130px; height: 120px;">
+            <img src="asset/asset 8.svg" alt="" class="img-fluid mt-4" style="display: block; margin: auto; height: 40px;">
+            <p style="font-size: 17px; text-align: center; color: black;">Frozen Foods</p>
+          </div>
+          <div class="divhover" style="background-color: #f8f8f8; width: 130px; height: 120px;">
+            <img src="asset/asset 10.svg" alt="" class="img-fluid mt-4" style="display: block; margin: auto; height: 40px;">
+            <p style="font-size: 17px; text-align: center; color: black;">Frozen Foods</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-lg">
+    <div class="d-flex justify-content-between mt-5 row" style="flex-wrap: wrap;">
+      <div class="opacity1" style="width: 330px; height: 150px; background-color: yellow;  margin-top: -100px; margin-left: 398px; background-image: url('asset/asset\ 39.jpeg'); background-size: cover; background-repeat: no-repeat; background-position: -120px;">      
+        <p class="ms-4 " style="font-size: 20px; margin-top: 10px;">50% offer</p>
+        <p class="ms-4" style="font-size: 20px; margin-top: -10px; color: #1aa98e;">Testy Mushrooms</p>
+        <button type="button" class="btn btn-danger ms-4 px-4 mt-1">Shop Now<i class="fa-solid fa-arrow-right ms-2 mt-1"></i>
+        </button>
+      </div>  
+    
+      <div class="opacity1" style="width: 330px; height: 150px; background-color: yellow;  margin-top: -100px; margin-right: 28px;; background-image: url('asset/asset\ 40.jpeg'); background-size: cover; background-repeat: no-repeat; background-position: -120px; ">
+        <p class="ms-4 " style="font-size: 20px; margin-top: 10px;">50% offer</p>
+        <p class="ms-4" style="font-size: 20px; margin-top: -10px; color: #1aa98e;">FRESH MEAT</p>
+        <button type="button" class="btn btn-danger ms-4 px-4 mt-1">Shop Now<i class="fa-solid fa-arrow-right ms-2 mt-1"></i>
+        </button>
+      </div>
+    </div>        
+  </div>
+
+  <div class="container-lg">
+    <div class="d-flex justify-content-between">
+      <div class="opacity1" style="background-color: yellow; height: 585px; width: 360px; margin-top: -50px; background-image: url('asset/asset\ 24.jpeg');background-position: -9px;">
+        <p class="ms-4 mt-5" style="color: orange;">Seafood</p>
+        <p class="ms-4" style="font-size: 21px;"><span style="color: #1aa98e;">FRESHES</span>    PRODUCTS</p>
+        <h5 class="ms-4">every hour</h5>
+        <button type="button" class="btn btn-danger ms-4 px-4 mt-1">Shop Now<i class="fa-solid fa-arrow-right ms-2 mt-1"></i>
+        </button>
+      </div>
+    
+      <div class="mt-5" style="background-color: white; height: 500px; width: 715px; margin-right: 16px;">
+        <h3 class="">Top Save Today</h3>
+        <img src="asset/asset 13.svg" alt="" class="" style="height: 40px; margin-left: 80px;">
+        <p class="fs-5">Don't miss this opportunity at a special discount just for this week.</p>
+        
+        <div class="d-flex" style="border: 2px solid #c8ccd1;">
+          <div class="card" style="width: 18rem; border-radius: 0; border: none; border-right: 2px solid #c8ccd1;">
+            <img src="asset/asset 5.png" class="card-img-top mt-4 img-fluid zoom" alt="..."
+            style="height: 150px; width: 200px; display: block; margin: auto;">
+            
+            <div class="card-body">
+              <a href="#" class="" style="text-decoration: none; color: black;">Fantasy Crunchy Choco Chip
+              Cookies</a><br>
+              <a href="#" class="" style="color: #1aa98e; text-decoration: none;">$26.26 <span class=""
+                style="color: black;"><del>28.56</del></span></a><br>
+              <a href="#" style="text-decoration: none; color: #1aa98e;"><img src="assets/asset 91.svg" alt=""
+                class="" style="height: 17px; ">
+                <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+                <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">&nbsp;&nbsp;&nbsp;In Stock</a><br>
+                <button type="button" class="btn rounded-pill mt-2 text-center"
+                style="width: 200px; background-color: #f8f8f8;">Add<i class="fa-regular fa-plus px-2 py-2"
+                style="margin-left: 70px; background-color: #ffffff; border-radius: 40px;"></i></button>
+            </div>
+          </div>
+        
+          <div class="card " style="width: 18rem; border-radius: 0; border: none; border-right: 2px solid #c8ccd1">
+            <img src="asset/asset 35.png" class="card-img-top mt-4 img-fluid zoom" alt="..." style="width: 200px; height: 150px; display: block; margin: auto;">
+            
+            <div class="card-body">
+              <a href="#" class="" style="text-decoration: none; color: black;">Fantasy Crunchy Choco Chip Cookies
+              600g</a><br>
+              <a href="#" class="" style="color: #1aa98e; text-decoration: none;">$26.26 <span class=""
+                style="color: black;"><del>28.56</del></span></a><br>
+              <a href="#" style="text-decoration: none; color: #1aa98e;"><img src="assets/asset 91.svg" alt=""
+                class="" style="height: 17px; ">
+              <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+              <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+              <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+              <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">&nbsp;&nbsp;&nbsp;In
+              Stock</a><br>
+              <button type="button" class="btn rounded-pill mt-2 text-center"
+              style="width: 200px; background-color: #f8f8f8;">Primary<i class="fa-regular fa-plus px-2 py-2" style="margin-left: 70px; background-color: #ffffff; border-radius: 40px;"></i></button>
+            </div>
+          </div>
+
+          <div class="card " style="width: 18rem; border-radius: 0; border: none;">
+            <img src="asset/asset 36.png" class="card-img-top mt-4 img-fluid zoom" alt="..." style="width: 150px;height: 150px; display: block; margin: auto;">
+            
+            <div class="card-body">
+              <a href="#" class="" style="text-decoration: none; color: black;">Fantasy Crunchy Choco Chip Cookies
+              100g</a><br>
+              <a href="#" class="" style="color: #1aa98e; text-decoration: none;">$26.26 <span class=""
+                style="color: black;"><del>28.56</del></span></a><br>
+              <a href="#" style="text-decoration: none; color: #1aa98e;"><img src="assets/asset 91.svg" alt=""
+                class="" style="height: 17px; ">
+              <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+              <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+              <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">
+              <img src="asset/asset 91.svg" alt="" class="" style="height: 17px; ">&nbsp;&nbsp;&nbsp;In
+              Stock</a><br>
+              <button type="button" class="btn rounded-pill mt-2 text-center"
+              style="width: 200px; background-color: #f8f8f8;">Primary<i class="fa-regular fa-plus px-2 py-2"
+                style="margin-left: 70px; background-color: #ffffff; border-radius: 40px;"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- meadal part 2 -->
+
+  <div class="container">
+    <div class="d-flex justify-content-between mt-5">
+      <div class="opacity1 rounded-3" style=" max-width: auto; background-color: yellow; height: 980px; width: 360px;  background-image: url('asset/asset\ 25.jpeg');background-position: -9px;">
+        <p class="ms-4 mt-5" style="color: orange;">Seafood</p>
+        <p class="ms-4" style="font-size: 21px;"><span style="color: #1aa98e;">FRESHES</span>    PRODUCTS</p>
+        <h5 class="ms-4">every hour</h5>
+        <button type="button" class="btn btn-danger ms-4 px-4 mt-1">Shop Now<i class="fa-solid fa-arrow-right ms-2 mt-1"></i></button>
+      </div>
+      
+      <div class="d-block">
+      <div class="" style="background-color: yellowgreen; height: 150px; width: 715px; margin-right: 20px; background-image: url('asset/asset\ 41.jpeg'); background-size: cover;"><br>
+        <p class="text-center "><span class="fs-3 text-white">Get $3 Cashback! Min Order of $30</span></p>
+        <p class="text-center" style="font-size: 16px;"><span class="px-3 py-1" style="color: white; border: 2px dotted white;">Use Code:GROCERY1920</span></p>
+      </div>
+
+      <div class="opacity1" style="background-color: purple; width: 715px; height: 250px; margin-right: 20px; margin-top: 40px; background-image: url('asset/asset\ 42.jpeg'); background-size: cover;"><br>
+        <h5 class="ms-4 fs-3" style="color: #1aa98e;">Get Ready TO</h5>
+        <p class="ms-4" style="font-size: 20px;">TAKE ON THE DAY!</p>
+        <p class="ms-4" style="max-width: 443px;">In publishing and graphic design, Lorem insum is a placeholder text commonly used to demonstrate.</p>
+        <button type="button" class="btn btn-danger ms-4 px-4 mt-1">Shop Now<i class="fa-solid fa-arrow-right ms-2 mt-1"></i></button>
+      </div>
+
+      <div class="opacity1" style="background-color: yellowgreen; height: 150px; width: 715px; margin-right: 20px; margin-top: 40px; background-image: url('asset/asset\ 43.jpeg'); background-size: cover; background-repeat: no-repeat; background-position: 0px;"><br>
+        <p class="ms-4" style="font-size: 30px; color: rgba(226, 9, 9, 0.63);">20% off</p>
+        <p class="ms-4" style="font-size: 25px; color: #1aa98e; margin-top: -20px;">SUMMRY</p>
+        <p class="ms-4" style="font-size: 25px; color: black; margin-top: -20px;">20% off</p>
+      </div>
+
+      <div class="mt-4">
+        <h3>Our Best Seller</h3>
+        <p style="color: #1aa98e;">---------<img src="asset/asset 13.svg" alt="" class="" style="height: 40px; color: #1aa98e;">--------</p>
+        <p style="color: gray; font-size: 17px;">A virtual assistant collects the products from your list</p>
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <div class="card" style="width: 22rem;">
+            <div class="d-flex">
+              <div class="">
+                <img src="asset/asset 48.png" alt="" class="img-fluid ms-5 mt-4 zoom">
+              </div>
+              <div class="ms-5 mt-4">
+                <a class="zoom" href="#" style="text-decoration: none;">Good Life Refined Sunflower...</a>
+                <p>1 L</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+
+            <div class="d-flex" style="margin-top: -20px;">
+              <div class="">
+                <img src="asset/asset 49.png" alt="" class="img-fluid ms-5 mt-4 zoom" style="height: 70px;">
+              </div>
+              <div class="mt-4" style="margin-left: 39px;">
+                <a class="zoom" href="#" style="text-decoration: none; ">Good Life Raw Peanuts</a>
+                <p>500 G</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+
+            
+            <div class="d-flex" style="margin-top: -20px;">
+              <div class="">
+                <img src="asset/asset 50.png" alt="" class="img-fluid ms-4 mt-4 zoom" style="height: 70px; width: 80px;">
+              </div>
+              <div class="mt-4" style="margin-left: 20px;">
+                <a class="zoom" href="#" style="text-decoration: none;">TufBest Farms Moong Dal</a>
+                <p>1 KG</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+
+            
+            <div class="d-flex" style="margin-top: -20px;">
+              <div class="">
+                <img src="asset/asset 51.png" alt="" class="img-fluid  mt-4 zoom" style="height: 90px; width: 60px; margin-left: 40px;">
+              </div>
+              <div class=" mt-4" style="margin-left: 20px;">
+                <a class="zoom" href="#" style="text-decoration: none;">Frooti Mango Drink</a>
+                <p>160 ML</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="">
+          <div class="card" style="width: 22rem;">
+            
+            <div class="d-flex" style="">
+              <div class="">
+                <img src="asset/asset 52.png" alt="" class="img-fluid ms-4 mt-4 zoom" style="width: 70px; height: 70px;">
+              </div>
+              <div class="mt-4" style="margin-left: 30px;">
+                <a class="zoom" href="#" style="text-decoration: none;">Tuffets Whole Wheat Bread </a>
+                <p>500 G</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+
+            
+            <div class="d-flex" style="margin-top: -20px;">
+              <div class="">
+                <img src="asset/asset 53.png" alt="" class="img-fluid ms-4 mt-4 zoom" style="width: 70px; height: 70px;">
+              </div>
+              <div class=" mt-4" style="margin-left: 30px;">
+                <a class="zoom" href="#" style="text-decoration: none;">Potato</a>
+                <p>500 G</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+
+            
+            <div class="d-flex" style="margin-top: -20px;">
+              <div class="">
+                <img src="asset/asset 54.png" alt="" class="img-fluid ms-4 mt-4 zoom" style="width: 60px;">
+              </div>
+              <div class=" mt-4" style="margin-left: 37px;">
+                <a class="zoom" href="#" style="text-decoration: none;">Good Life Refined Sunflower...</a>
+                <p>1 L</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+            
+            <div class="d-flex" style="margin-top: -20px;">
+              <div class="">
+                <img src="asset/asset 55.png" alt="" class="img-fluid ms-4 mt-4 zoom" style="width: 60px;">
+              </div>
+              <div class=" mt-4" style="margin-left: 30px;">
+                <a class="zoom" href="#" style="text-decoration: none;">Good Life Refined Sunflower...</a>
+                <p>1 L</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+
+      <div class="" style="height: 570px; width: 360px; margin-top: -330px;">
+      <div class="d-flex justify-content-between">
+        <div class="">
+          <div class="card" style="width: 23rem; background-color: #f8f8f8;">
+            <div class="d-flex">
+              <div class="">
+                <img src="asset/asset 48.png" alt="" class="img-fluid ms-5 mt-4 zoom">
+              </div>
+              <div class="ms-5 mt-4">
+                <a class="zoom" href="#" style="text-decoration: none;">Good Life Refined Sunflower...</a>
+                <p>1 L</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+
+            <div class="d-flex" style="margin-top: -20px;">
+              <div class="">
+                <img src="asset/asset 49.png" alt="" class="img-fluid ms-5 mt-4 zoom" style="height: 70px;">
+              </div>
+              <div class="mt-4" style="margin-left: 39px;">
+                <a class="zoom" href="#" style="text-decoration: none;">Good Life Raw Peanuts</a>
+                <p>500 G</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+
+            
+            <div class="d-flex" style="margin-top: -20px;">
+              <div class="">
+                <img src="asset/asset 50.png" alt="" class="img-fluid ms-4 mt-4 zoom" style="height: 70px; width: 80px;">
+              </div>
+              <div class="mt-4" style="margin-left: 20px;">
+                <a class="zoom" href="#" style="text-decoration: none;">TufBest Farms Moong Dal</a>
+                <p>1 KG</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+
+            
+            <div class="d-flex" style="margin-top: -20px;">
+              <div class="">
+                <img src="asset/asset 51.png" alt="" class="img-fluid  mt-4 zoom" style="height: 90px; width: 60px; margin-left: 40px;">
+              </div>
+              <div class=" mt-4" style="margin-left: 20px;">
+                <a class="zoom" href="#" style="text-decoration: none;">Frooti Mango Drink</a>
+                <p>160 ML</p>
+                <p href="" style="text-decoration: none; color: #1aa98e; margin-top: -10px;">$10.00</p>
+                <p>--------------------------------</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <div class="container">
+      <div class="" style="background-color: tomato; height: 200px; width: 735px; margin-left: 370px; margin-top: -200px; background-image: url('asset/asset\ 56.jpeg'); background-size: cover;"><br>
+        <p class="text-center" style="color: #1aa98e;">S U M M E R</p>
+        <h1 class="text-center">VEGETABLE</h1>
+        <p style="text-align: center; color: gray;">Save up to 5% OFF</p>
+        <button type="button" class="btn btn-danger py-1 px-3 mt-1 d-flex" style="margin: auto;">Shop Now<i class="fa-solid fa-arrow-right ms-2 mt-1"></i></button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- meadal part 3 -->
+
+  <div class="container-lg mt-5">
+    <div class="d-flex">
+      
+      <div class="rounded-2" style="height: 430px; width: 360px; background-color: rgb(248,248,248);">
+        <p class="fs-5 ms-4 mt-4"><b>Customer Comment</b></p>        
+        <p class="ms-4 mt-4"><b>We Care About Our Customer <br> Experience</b></p>
+        <p class="ms-4">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+        <div class="d-flex">
+          <img src="asset/asset 30.jpeg" alt="" height="80px" class="medal-3-img  ms-4 mt-5">
+          <p style="margin-top: 65px; margin-left: 20px;"><b>Tina Mcdonnale</b><br><span class="text-secondary">Sale Manager</span></p> 
+        </div>
+      </div>
+
+      <div class="">
+        <h3 class="ms-4">Featured Blog</h3>
+        <p class="ms-4">-------<img src="asset/asset 13.svg" alt="" class="" style="height: 30px; margin-left: 10px;">&nbsp;&nbsp;-------</p>
+        <p class="ms-4">A virtual assistant collects the products from your list</p>
+
+        <div class="d-flex justify-content-between">
+          
+          <div class="rounded-2">
+            <div class="overs ms-4">
+              <a href=""><img src="asset/asset 58.jpeg" alt="" style="width: 345px;" class="zoom1 img-fluid"></a>
+            </div>
+            <p class="ms-4 mt-3">20 March, 2022</p>
+            <a href="#" class="Featured"><p class="ms-4">Fresh Vegetables Online</p></a>
+          </div>
+
+          <div class="ms-4 rounded-2">
+            <div class="overs">
+              <a href=""><img src="asset/asset 59.jpeg" alt="" style="width: 345px;" class="zoom1 img-fluid"></a>
+            </div>
+            <p class="mt-3">10 April, 2022</p>
+            <a href="#" class="Featured"><p class="">Fresh Combo Fruit</p></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-4">
+      <div class="col-12" style="height: 260px; width: 100%; background-image: url('asset/asset\ 73.jpeg'); background-position: center; background-repeat: no-repeat;">
+        <h3 class="text-light" style="margin-left: 120px; padding-top: 60px;">Join Our Newsletter And Get...</h3>
+        <span class="text-warning" style="margin-left: 120px; margin-top: 10px;">$20 discount for your first order</span>
+          
+        <div class="d-flex align-items-center rounded-2 justify-content-around" style="background-color: #f8f8f8; width: 450px; height: 50px; margin-left: 120px; margin-top: 10px;">
+          <i class="fa-solid fa-envelope fs-4"></i>
+          <input type="text" placeholder="Enter Your Email" class="border border-0 form-control" id="search-1" style="background-color: #f8f8f8; width: 230px;">
+          <button class="border-0 bg-danger text-light rounded-2 p-2" style="width: 170px;">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Footer part -->
+
+  <div class="mt-4" style="background-color: rgb(246,246,246); width: 100%;">
+    <div class="container-lg">
+      <div class="d-flex justify-content-evenly">
+        
+        <div class="mt-5">
+          <img src="asset/asset 60.svg" alt="" style="height: 40px;">
+          <span class="ms-4"><b>Every Fresh Products</b></span>
+          <div class="mt-3">
+            <img src="asset/asset 62.svg" alt="" style="height: 40px;">
+            <span class="ms-4"><b>Daily Mega Discounts</b></span>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <img src="asset/asset 61.svg" alt="" style="height: 35px; width:50px;">
+          <span class="ms-4"><b>
+            Free Delivery For Order Over $50</b></span>
+          <div class="mt-3">
+            <img src="asset/asset 63.svg" alt="" style="height: 40px;">
+            <span class="ms-4"><b>
+              Best Price On The Market</b></span>
+          </div>
+        </div>
+      </div>
+
+      <p class="mt-4" style="color: rgb(205,205,205);">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+      <div class="d-flex justify-content-between">
+        
+        <div class="mt-5">
+          <a href="#"><img src="asset/asset 4.png" alt="" class="img1"></a>
+          <p class="mt-4 text-secondary" style="max-width: 225px;">We are a friendly bar serving a variety of cocktails, wines and beers. Our bar is a perfect place for a couple.</p>
+            <a href="#" class="footer"><img src="asset/asset 94.svg" alt="">
+              <span class="footer ms-2">1418 Riverwood Drive, CA 96052,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;US</span>
+            </a>
+              <br>
+            <a href="#" class="footer"><img src="asset/asset 95.svg" alt="">
+              <span class="footer ms-2">support@fastkart.com</span> 
+            </a>
+        </div>
+
+        <div class="" style="margin-top: 45px;">
+          <p class="fs-5"><b>Categories</b></p>
+          <nav>
+            <a href="#" class="footer1nav"><p>Vegetables & Fruit</p></a>
+            <a href="#" class="footer1nav"><p>Beverages</p></a>
+            <a href="#" class="footer1nav"><p>Meats & Seafood</p></a>
+            <a href="#" class="footer1nav"><p>Frozen Foods</p></a>
+            <a href="#" class="footer1nav"><p>Biscuits & Snacks</p></a>
+            <a href="#" class="footer1nav"><p>Grocery & Staples</p></a>
+          </nav>
+        </div>
+
+        <div class="" style="margin-top: 45px;">
+          <p class="fs-5"><b>Useful Links</b></p>
+          <a href="#" class="footer1nav"><p>Home</p></a>
+          <a href="#" class="footer1nav"><p>Shop</p></a>
+          <a href="#" class="footer1nav"><p>About Us</p></a>
+          <a href="#" class="footer1nav"><p>Blog</p></a>
+          <a href="#" class="footer1nav"><p>Contact Us</p></a>
+        </div>
+
+        <div class="" style="margin-top: 45px;">
+          <p class="fs-5"><b>Help Center</b></p>
+          <a href="#" class="footer1nav"><p>Your Order</p></a>
+          <a href="#" class="footer1nav"><p>Your Account</p></a>
+          <a href="#" class="footer1nav"><p>Track Order</p></a>
+          <a href="#" class="footer1nav"><p>Your Wishlist</p></a>
+          <a href="#" class="footer1nav"><p>Search</p></a>
+          <a href="#" class="footer1nav"><p>FAQ</p></a>
+        </div>
+
+        <div class="" style="margin-top: 45px;">
+          <p class="fs-5"><b>Contact Us</b></p>
+          <a href="#" class="footer2nav"><img src="asset/asset 96.svg" alt="">
+            <span class="ms-2">Hotline 24/7 :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>+91 888 104 2340</b></span> 
+          </a>
+          <p class="mt-1" style="color: rgb(205,205,205); margin-left: 30px;">--------------------------------------</p>
+          <a href="#" class="footer2nav"><img src="asset/asset 95.svg" alt="">
+            <span class="ms-2">Email Address :<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>fastkart@hotmail.com</b></span> 
+          </a>
+          <p class="mt-1" style="color: rgb(205,205,205); margin-left: 30px;">--------------------------------------</p>
+          <p>Download App :</p>
+          <a href="#"><img src="asset/asset 64.svg" alt="" style="width: 150px;"><img src="asset/asset 65.svg" alt="" class="ms-2" style="width: 150px;"></a>
+        </div>
+
+      </div>
+
+      <p class="mt-4 mb-4" style="color: rgb(205,205,205); width: 100%; ">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+      <div class="d-flex justify-content-between">
+        <p>©2022 Fastkart All rights reserved</p>
+        <img src="asset/asset 66.png" alt="">
+        <p>Stay connected :
+          <a href="#" class="iconfooter"><i class="fa-brands fa-facebook-f ms-1 animate__animated animate__bounce"></i></a> 
+          <a href="#" class="iconfooter"><i class="fa-brands fa-twitter ms-2 animate__animated animate__bounce"></i></a>
+          <a href="#" class="iconfooter"><i class="fa-brands fa-instagram ms-2 animate__animated animate__bounce"></i></a>
+          <a href="#" class="iconfooter"><i class="fa-brands fa-pinterest-p ms-2 animate__animated animate__bounce"></i></a>
+        </p>
+      </div>
+      <br>
+    </div>
+  </div>
+   
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+  </body>
+</html>
